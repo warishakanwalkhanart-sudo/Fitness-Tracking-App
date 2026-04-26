@@ -12,7 +12,7 @@ export default function ExerciseDetailScreen({ route }) {
 
       <Text style={styles.desc}>{item.desc}</Text>
 
-      <Text style={styles.sectionTitle}>💪 Instructions</Text>
+      <Text style={styles.sectionTitle}> Instructions</Text>
       <Text style={styles.text}>{item.instructions}</Text>
     </View>
   );
